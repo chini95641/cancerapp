@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O2a-c8-XEp">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Identify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FA4-Jr-LaL" customClass="TMButton" customModule="Identify" customModuleProvider="target">
+                                <rect key="frame" x="78" y="739.33333333333337" width="234" height="50.666666666666629"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="ABOUT THE CALCULATOR"/>
+                                <connections>
+                                    <action selector="aboutButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9f-rP-RA0"/>
+                                    <segue destination="yFp-0l-fdd" kind="show" identifier="toAboutScreen" id="gH4-3v-Rvg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52B-61-H8F" customClass="TMButton" customModule="Identify" customModuleProvider="target">
+                                <rect key="frame" x="117" y="668.66666666666663" width="156" height="50.666666666666629"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="CALCULATE RISK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NCV-hm-J7t"/>
+                                    <segue destination="ILX-6S-HQq" kind="show" identifier="toCalculateScreen" id="CPM-tc-6dz"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="tGQ-oU-rWm">
+                                <rect key="frame" x="81" y="68" width="228" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gUN-Qg-CPR"/>
+                                    <constraint firstAttribute="width" secondItem="tGQ-oU-rWm" secondAttribute="height" multiplier="105:23" id="srW-0J-RDp"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bladderCancer" translatesAutoresizingMaskIntoConstraints="NO" id="Tow-SO-CNS">
+                                <rect key="frame" x="0.0" y="271" width="390" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Tow-SO-CNS" secondAttribute="height" multiplier="325:185" id="TZr-HQ-VAZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A multicentre observational study of patients referred to secondary care with haematuria" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bh2-Gr-J7O">
+                                <rect key="frame" x="20" y="130" width="350" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do not use this calculator if patient has a previous history  of urinary tract cancer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phD-Hf-nrT">
+                                <rect key="frame" x="20" y="619" width="350" height="33.666666666666629"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By the British Urology Researchers in Surgical Traininng (BURST)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqW-ty-yCM">
+                                <rect key="frame" x="20" y="571" width="350" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="52B-61-H8F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1AU-fr-bkM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="phD-Hf-nrT" secondAttribute="trailing" constant="20" id="1D8-X7-oEp"/>
+                            <constraint firstItem="Tow-SO-CNS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="3Nt-hb-jMu"/>
+                            <constraint firstItem="FA4-Jr-LaL" firstAttribute="top" secondItem="52B-61-H8F" secondAttribute="bottom" constant="20" id="40R-z7-rNc"/>
+                            <constraint firstItem="qqW-ty-yCM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6xk-dB-Hyu"/>
+                            <constraint firstItem="Bh2-Gr-J7O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7Aw-dx-1r8"/>
+                            <constraint firstItem="tGQ-oU-rWm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9eo-yD-Msi"/>
+                            <constraint firstItem="phD-Hf-nrT" firstAttribute="top" secondItem="qqW-ty-yCM" secondAttribute="bottom" constant="12" id="Jak-Kg-DFr"/>
+                            <constraint firstItem="FA4-Jr-LaL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KnO-eq-mEv"/>
+                            <constraint firstItem="FA4-Jr-LaL" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.06" id="KsH-px-9MZ"/>
+                            <constraint firstItem="Tow-SO-CNS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MGj-0n-ON6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qqW-ty-yCM" secondAttribute="trailing" constant="20" id="OmU-in-Aij"/>
+                            <constraint firstItem="52B-61-H8F" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="REc-u5-hJn"/>
+                            <constraint firstItem="FA4-Jr-LaL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="VUZ-5w-15Z"/>
+                            <constraint firstItem="Tow-SO-CNS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c9I-Eo-7TM"/>
+                            <constraint firstItem="tGQ-oU-rWm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="cWp-Hs-MxN"/>
+                            <constraint firstItem="phD-Hf-nrT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="foE-tn-ej1"/>
+                            <constraint firstItem="Bh2-Gr-J7O" firstAttribute="top" secondItem="tGQ-oU-rWm" secondAttribute="bottom" constant="12" id="frk-Zm-DYh"/>
+                            <constraint firstItem="Tow-SO-CNS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hfv-Yy-AtM"/>
+                            <constraint firstItem="52B-61-H8F" firstAttribute="top" secondItem="phD-Hf-nrT" secondAttribute="bottom" constant="16" id="rBu-yt-S7B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bh2-Gr-J7O" secondAttribute="trailing" constant="20" id="vNm-9G-AIK"/>
+                            <constraint firstItem="52B-61-H8F" firstAttribute="height" secondItem="FA4-Jr-LaL" secondAttribute="height" id="zsC-WC-d40"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FA4-Jr-LaL" secondAttribute="bottom" constant="20" id="zvw-Go-ect"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gpW-C0-qh5">
+                        <barButtonItem key="backBarButtonItem" title=" " id="66G-og-Owz"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="aboutButton" destination="FA4-Jr-LaL" id="WBT-Qs-A12"/>
+                        <outlet property="calculateButton" destination="FA4-Jr-LaL" id="xd6-UN-EPA"/>
+                        <outlet property="centreImageView" destination="Tow-SO-CNS" id="ToV-M6-BQB"/>
+                        <outlet property="topLogo" destination="tGQ-oU-rWm" id="AIO-uQ-m2e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947.82608695652186" y="112.5"/>
+        </scene>
+        <!--About the calculator-->
+        <scene sceneID="N3G-Ot-wgf">
+            <objects>
+                <viewController storyboardIdentifier="AboutViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yFp-0l-fdd" customClass="AboutViewController" customModule="Identify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BpW-XR-3s2">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0D-uT-J1B">
+                                <rect key="frame" x="20" y="88" width="350" height="722"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" link="YES"/>
+                                </accessibility>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="yFp-0l-fdd" id="bz5-bv-5Et"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dM4-eJ-WNC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r0D-uT-J1B" firstAttribute="top" secondItem="dM4-eJ-WNC" secondAttribute="top" id="Fqk-nf-25Z"/>
+                            <constraint firstItem="dM4-eJ-WNC" firstAttribute="bottom" secondItem="r0D-uT-J1B" secondAttribute="bottom" id="Vz0-6f-8o3"/>
+                            <constraint firstItem="dM4-eJ-WNC" firstAttribute="trailing" secondItem="r0D-uT-J1B" secondAttribute="trailing" constant="20" id="rLs-XS-L96"/>
+                            <constraint firstItem="r0D-uT-J1B" firstAttribute="leading" secondItem="dM4-eJ-WNC" secondAttribute="leading" constant="20" id="t36-gY-5iE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="About the calculator" id="2Ac-xQ-h9n"/>
+                    <connections>
+                        <outlet property="textView" destination="r0D-uT-J1B" id="L4x-kb-mFI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ajr-Oy-HHg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947.69230769230762" y="928.43601895734594"/>
+        </scene>
+        <!--Calculate-->
+        <scene sceneID="3tW-vE-gwL">
+            <objects>
+                <viewController storyboardIdentifier="CalculateViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ILX-6S-HQq" customClass="CalculateViewController" customModule="Identify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rbS-S4-tyZ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gY8-tv-Ou5" customClass="TMButton" customModule="Identify" customModuleProvider="target">
+                                <rect key="frame" x="78" y="740" width="234" height="50"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xXo-B1-9H5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="CALCULATE RISK">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateButtonPressed:" destination="ILX-6S-HQq" eventType="touchUpInside" id="O59-HG-cTz"/>
+                                    <action selector="calculateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bMV-pR-lHp"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jlu-na-TVC">
+                                <rect key="frame" x="0.0" y="88" width="390" height="632"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="VE0-cj-cOT">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="58"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NRr-hi-wsB" customClass="TMTextField" customModule="Identify" customModuleProvider="target">
+                                            <rect key="frame" x="20" y="2" width="350" height="46"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                    <constraints>
+                                        <constraint firstItem="NRr-hi-wsB" firstAttribute="top" secondItem="VE0-cj-cOT" secondAttribute="top" constant="2" id="QyB-wo-oL3"/>
+                                        <constraint firstAttribute="bottom" secondItem="NRr-hi-wsB" secondAttribute="bottom" constant="10" id="Sls-vn-ZRQ"/>
+                                        <constraint firstItem="NRr-hi-wsB" firstAttribute="leading" secondItem="VE0-cj-cOT" secondAttribute="leading" constant="20" id="e99-58-C8l"/>
+                                        <constraint firstAttribute="trailing" secondItem="NRr-hi-wsB" secondAttribute="trailing" constant="20" id="f7u-fW-nDW"/>
+                                    </constraints>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tempCell" id="O23-xR-utq">
+                                        <rect key="frame" x="0.0" y="102.66666603088379" width="390" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O23-xR-utq" id="Ni7-K4-4zg">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ILX-6S-HQq" id="L5C-yC-kdj"/>
+                                    <outlet property="delegate" destination="ILX-6S-HQq" id="cJ8-YE-oJ6"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ixT-uY-DRX"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="jlu-na-TVC" firstAttribute="trailing" secondItem="ixT-uY-DRX" secondAttribute="trailing" id="GLK-DL-fTa"/>
+                            <constraint firstItem="gY8-tv-Ou5" firstAttribute="width" secondItem="rbS-S4-tyZ" secondAttribute="width" multiplier="0.6" id="GQY-GL-d3R"/>
+                            <constraint firstItem="gY8-tv-Ou5" firstAttribute="top" secondItem="jlu-na-TVC" secondAttribute="bottom" constant="20" id="JJT-0C-5kH"/>
+                            <constraint firstItem="jlu-na-TVC" firstAttribute="top" secondItem="ixT-uY-DRX" secondAttribute="top" id="TcK-52-MiN"/>
+                            <constraint firstItem="ixT-uY-DRX" firstAttribute="bottom" secondItem="gY8-tv-Ou5" secondAttribute="bottom" constant="20" id="cej-Vl-v4i"/>
+                            <constraint firstItem="jlu-na-TVC" firstAttribute="leading" secondItem="ixT-uY-DRX" secondAttribute="leading" id="lEA-eH-GPB"/>
+                            <constraint firstItem="gY8-tv-Ou5" firstAttribute="centerX" secondItem="rbS-S4-tyZ" secondAttribute="centerX" id="mlI-Zq-SJK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Calculate" id="kVX-Lt-Nxr">
+                        <barButtonItem key="backBarButtonItem" title=" " id="MmY-KH-UcO"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="age" destination="NRr-hi-wsB" id="NTR-0u-r0n"/>
+                        <outlet property="calculateRisk" destination="gY8-tv-Ou5" id="2ja-iv-a9m"/>
+                        <outlet property="tableView" destination="jlu-na-TVC" id="j9v-Wh-NIa"/>
+                        <segue destination="gI0-aP-LRk" kind="show" identifier="toResult" id="OZ9-va-Bda"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Iv-hd-tOF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2063.0769230769229" y="110.90047393364928"/>
+        </scene>
+        <!--Results-->
+        <scene sceneID="epS-er-2EB">
+            <objects>
+                <viewController storyboardIdentifier="ResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gI0-aP-LRk" customClass="ResultViewController" customModule="Identify" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0xt-eT-MOD">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vZW-g6-rdk">
+                                <rect key="frame" x="81" y="108" width="228" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vZW-g6-rdk" secondAttribute="height" multiplier="105:23" id="QKC-Kf-QGk"/>
+                                    <constraint firstAttribute="height" constant="50" id="ql5-7u-Fce"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKZ-cK-w07" customClass="TMButton" customModule="Identify" customModuleProvider="target">
+                                <rect key="frame" x="68.333333333333329" y="740" width="253.33333333333337" height="50"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hkE-KT-DqQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="BACK TO HOME SCREEN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToHomePressed:" destination="gI0-aP-LRk" eventType="touchUpInside" id="byK-3z-bhs"/>
+                                    <action selector="calculateButtonPressed:" destination="ILX-6S-HQq" eventType="touchUpInside" id="Dra-Om-Dzd"/>
+                                    <action selector="calculateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cx0-mw-Q8B"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="W3N-bB-v7F">
+                                <rect key="frame" x="30" y="293.33333333333337" width="330" height="257.33333333333337"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The predicted risk of urinary tract cacer is 1.0%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nt4-Zg-Sza">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is a VERY LOW RISK of Urinary Tract cancer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfB-LY-cmV">
+                                        <rect key="frame" x="0.0" y="68" width="330" height="48"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YD9-Ex-mGE" customClass="TMView" customModule="Identify" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="136" width="330" height="121.33333333333331"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consider an increased risk of upper tract cancer if the patient has flank pain and haematuria." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndy-ix-vd3">
+                                                <rect key="frame" x="20" y="8" width="290" height="105.33333333333333"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                <color key="textColor" red="0.62278538939999994" green="0.1449161172" blue="0.19605067370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.98419779539999996" green="0.92924207449999996" blue="0.9411771297" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Ndy-ix-vd3" secondAttribute="trailing" constant="20" id="0al-qK-GPa"/>
+                                            <constraint firstItem="Ndy-ix-vd3" firstAttribute="top" secondItem="YD9-Ex-mGE" secondAttribute="top" constant="8" id="CkA-6Y-tZf"/>
+                                            <constraint firstAttribute="bottom" secondItem="Ndy-ix-vd3" secondAttribute="bottom" constant="8" id="SlR-WK-tam"/>
+                                            <constraint firstItem="Ndy-ix-vd3" firstAttribute="leading" secondItem="YD9-Ex-mGE" secondAttribute="leading" constant="20" id="xOH-0V-M0b"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3B8-yB-Bit"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3B8-yB-Bit" firstAttribute="trailing" secondItem="W3N-bB-v7F" secondAttribute="trailing" constant="30" id="4c2-6x-SXb"/>
+                            <constraint firstItem="W3N-bB-v7F" firstAttribute="centerX" secondItem="0xt-eT-MOD" secondAttribute="centerX" id="8nm-SI-dzY"/>
+                            <constraint firstItem="fKZ-cK-w07" firstAttribute="centerX" secondItem="0xt-eT-MOD" secondAttribute="centerX" id="ACh-of-yhA"/>
+                            <constraint firstItem="W3N-bB-v7F" firstAttribute="leading" secondItem="3B8-yB-Bit" secondAttribute="leading" constant="30" id="Ae3-9R-XMi"/>
+                            <constraint firstItem="fKZ-cK-w07" firstAttribute="width" secondItem="0xt-eT-MOD" secondAttribute="width" multiplier="0.65" id="PMh-Um-tl2"/>
+                            <constraint firstItem="W3N-bB-v7F" firstAttribute="centerY" secondItem="0xt-eT-MOD" secondAttribute="centerY" id="Prj-QK-ziq"/>
+                            <constraint firstItem="3B8-yB-Bit" firstAttribute="bottom" secondItem="fKZ-cK-w07" secondAttribute="bottom" constant="20" id="Ug3-lm-dNK"/>
+                            <constraint firstItem="vZW-g6-rdk" firstAttribute="centerX" secondItem="0xt-eT-MOD" secondAttribute="centerX" id="iVq-pd-fn8"/>
+                            <constraint firstItem="vZW-g6-rdk" firstAttribute="top" secondItem="3B8-yB-Bit" secondAttribute="top" constant="20" id="jTc-7G-QJA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Results" id="5U1-dj-FMc"/>
+                    <connections>
+                        <outlet property="probabilityLabel" destination="nt4-Zg-Sza" id="fXQ-aO-4a2"/>
+                        <outlet property="resultLabel" destination="cfB-LY-cmV" id="f4a-6d-pE4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TIe-vU-0XI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2848" y="112"/>
+        </scene>
+        <!--Home Navigation Controller-->
+        <scene sceneID="YuV-2b-eZb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O2a-c8-XEp" customClass="HomeNavigationController" customModule="Identify" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iJT-P6-duo">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Qja-Qw-i3H"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h7c-vO-AGt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.681159420289859" y="112.5"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="NRr-hi-wsB">
+            <size key="intrinsicContentSize" width="53.333333333333336" height="34"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="bladderCancer" width="283.5" height="159.5"/>
+        <image name="screenLogo" width="212.5" height="46"/>
+        <namedColor name="AccentColor">
+            <color red="0.34451997280000002" green="0.050320573149999999" blue="0.8941752315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
