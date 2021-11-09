@@ -437,17 +437,17 @@ class RiskCalculator {
         self.score = 0.0
         self.resultString = ""
         self.riskScore = nil
-        self.visibleHaematuria = .none
-        self.gender = .none
-        self.smoking = .none
-        self.familyHistory = .none
-        self.previousBenign = .none
+        self.visibleHaematuria = .no
+        self.gender = .female
+        self.smoking = .no
+        self.familyHistory = .no
+        self.previousBenign = .no
 //        self.tractSymptoms = .none
-        self.utiState = .none
-        self.catheterUse = .none
-        self.previousPelvicRadiotherapy = .none
-        self.anticoagulation = .none
-        
+        self.utiState = .no
+        self.catheterUse = .no
+        self.previousPelvicRadiotherapy = .no
+        self.anticoagulation = .no
+        self.updateValues()
     }
     
     

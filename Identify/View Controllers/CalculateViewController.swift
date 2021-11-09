@@ -10,7 +10,7 @@ import UIKit
 class CalculateViewController: UIViewController {
 
     @IBOutlet weak var calculateRisk: UIButton!
-    @IBOutlet weak var age: UITextField!
+    @IBOutlet weak var age: TMTextField!
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -19,7 +19,8 @@ class CalculateViewController: UIViewController {
         // Do any additional setup after loading the view.
         
      
-        
+        self.age.placeholder = "Input age (over 16 years)"
+        self.age.title  = "Age"
         self.age.delegate = self
         self.age.keyboardType = .numberPad
         self.setupContentForScreen()

@@ -40,8 +40,8 @@ class Risk {
     static func getContent() -> [Risk] {
         
         var list = [Risk]()
-        list.append(Risk.init(withName: "Visible Haematuria", andSubTitle: "In the absence of visible haematuria calculator assumes presence of non-visible haematuria"))
-        list.append(Risk.init(with: "Male", with: ["FEMALE","MALE"]))
+        list.append(Risk.init(withName: "Non-visible haematuria/Visible haematuria", andSubTitle: "In the absence of visible haematuria calculator assumes presence of non-visible haematuria"))
+        list.append(Risk.init(with: "Sex", with: ["FEMALE","MALE"]))
 
         list.append(Risk.init(with: "Smoking History", with: ["NO","EX-SMOKER","CURRENT SMOKER"]))
         
@@ -49,7 +49,6 @@ class Risk {
         list.append(Risk.init(with: "Previous benign investigation of haematuria",with:["NO","YES"]))
 //        list.append(Risk.init(with: "Lower urinary tract symptoms",with: ["NONE","VOIDING/OBSTRUCTIVE","STORAGE/IRRITATIVE","MIXED"]))
         list.append(Risk.init(with: "Urinary tract infection (UTI) associated with haematuria episode",with: ["NO","SINGLE UTI","RECURRENT UTIs"]))
-        
         
         list.append(Risk.init(with: "Catheter use",with: ["NO","YES"]))
         list.append(Risk.init(with: "Previous pelvic radiotherapy",with: ["NO","YES"]))
