@@ -106,7 +106,7 @@ extension CalculateViewController:UITableViewDataSource, UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if RiskCalculator.shared.risks[indexPath.row].segments.count == 2 {
+        if RiskCalculator.shared.risks[indexPath.row].segments.count == 2 && indexPath.row != 0 {
             let cell = tableView.dequeueReusableCell(withIdentifier: RiskTableViewCell.identifier, for: indexPath) as! RiskTableViewCell
             
             cell.risk = RiskCalculator.shared.risks[indexPath.row]

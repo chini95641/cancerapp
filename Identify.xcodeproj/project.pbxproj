@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -228,7 +228,7 @@
 				};
 			};
 			buildConfigurationList = CE3D65AB273A362A00E48B5E /* Build configuration list for PBXProject "Identify" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -444,6 +444,7 @@
 				DEVELOPMENT_TEAM = PWF876CLCD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Identify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "IDENTIFY risk calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -474,6 +475,7 @@
 				DEVELOPMENT_TEAM = PWF876CLCD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Identify/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "IDENTIFY risk calculator";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

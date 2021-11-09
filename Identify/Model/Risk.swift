@@ -32,7 +32,7 @@ class Risk {
         self.name = name
         self.selectedString = nil
         self.subTitle = subtitle
-        self.segments = ["NO","YES"]
+        self.segments = ["Non-visible haematuria","Visible haematuria"]
     }
     
     
@@ -40,7 +40,7 @@ class Risk {
     static func getContent() -> [Risk] {
         
         var list = [Risk]()
-        list.append(Risk.init(withName: "Non-visible haematuria/Visible haematuria", andSubTitle: "In the absence of visible haematuria calculator assumes presence of non-visible haematuria"))
+        list.append(Risk.init(withName: "Type of haematuria", andSubTitle: "In the absence of visible haematuria calculator assumes presence of non-visible haematuria"))
         list.append(Risk.init(with: "Sex", with: ["FEMALE","MALE"]))
 
         list.append(Risk.init(with: "Smoking History", with: ["NO","EX-SMOKER","CURRENT SMOKER"]))

@@ -166,6 +166,44 @@ enum SmokingState:Double {
     
 }
 
+enum sa:Double {
+    
+    
+    case none = -1.0
+    case nonVisible = 0.0
+    case visible = 1.0
+    
+    
+    var value:Double {
+        
+        if self == .nonVisible {
+            return 0.0
+        } else if self == .visible {
+            return 0.71
+
+        } else {
+            return 1.06
+        }
+        
+    }
+    var displayName:String? {
+        
+        switch self {
+        case .none:
+            return nil
+        case .nonVisible:
+            return "Non-visible haematuria"
+        case .visible:
+            return "Visible haematuria"
+    
+            
+        }
+     }
+    
+    
+    
+}
+
 
 class RiskCalculator {
     
