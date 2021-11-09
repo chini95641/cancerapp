@@ -330,14 +330,14 @@ class RiskCalculator {
             
             switch score {
                 
-            case (0...44):
+            case (0...28):
                 self.resultString = "There is a VERY LOW Risk of Urinary Tract Cancer"
                 self.riskColor = UIColor.lowRisk
 
-            case (45...60):
+            case (29...45):
                 self.resultString = "There is a LOW Risk of Urinary Tract Cancer"
                 self.riskColor = UIColor.lowRisk
-            case (61...76):
+            case (46...60):
                 self.resultString = "There is a INTERMEDIATE Risk of Urinary Tract Cancer"
                 self.riskColor = UIColor.intermediateRisk
             default:

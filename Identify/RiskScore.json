@@ -1,204 +1,204 @@
 [
   {
-     "Risk score":0,"Probability of urinary tract cancer":"0.01%","Lower limit":"0.01%","Upper limit":"0.02%"  },
+     "Risk score":0,"Probability of urinary tract cancer":"0.0%","Lower limit":"0.01%","Upper limit":"0.02%"  },
   {
-     "Risk score":1,"Probability of urinary tract cancer":"0.01%","Lower limit":"0.01%","Upper limit":"0.02%"  },
+     "Risk score":1,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.01%","Upper limit":"0.02%"  },
   {
-     "Risk score":2,"Probability of urinary tract cancer":"0.02%","Lower limit":"0.01%","Upper limit":"0.02%"  },
+     "Risk score":2,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.01%","Upper limit":"0.02%"  },
   {
-     "Risk score":3,"Probability of urinary tract cancer":"0.02%","Lower limit":"0.01%","Upper limit":"0.02%"  },
+     "Risk score":3,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.01%","Upper limit":"0.02%"  },
   {
-     "Risk score":4,"Probability of urinary tract cancer":"0.02%","Lower limit":"0.01%","Upper limit":"0.03%"  },
+     "Risk score":4,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.01%","Upper limit":"0.03%"  },
   {
-     "Risk score":5,"Probability of urinary tract cancer":"0.02%","Lower limit":"0.01%","Upper limit":"0.03%"  },
+     "Risk score":5,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.01%","Upper limit":"0.03%"  },
   {
-     "Risk score":6,"Probability of urinary tract cancer":"0.02%","Lower limit":"0.01%","Upper limit":"0.03%"  },
+     "Risk score":6,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.01%","Upper limit":"0.03%"  },
   {
-     "Risk score":7,"Probability of urinary tract cancer":"0.02%","Lower limit":"0.01%","Upper limit":"0.04%"  },
+     "Risk score":7,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.01%","Upper limit":"0.04%"  },
   {
-     "Risk score":8,"Probability of urinary tract cancer":"0.03%","Lower limit":"0.02%","Upper limit":"0.04%"  },
+     "Risk score":8,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.02%","Upper limit":"0.04%"  },
   {
-     "Risk score":9,"Probability of urinary tract cancer":"0.03%","Lower limit":"0.02%","Upper limit":"0.04%"  },
+     "Risk score":9,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.02%","Upper limit":"0.04%"  },
   {
-     "Risk score":10,"Probability of urinary tract cancer":"0.03%","Lower limit":"0.02%","Upper limit":"0.05%"  },
+     "Risk score":10,"Probability of urinary tract cancer":"0.1%","Lower limit":"0.02%","Upper limit":"0.05%"  },
   {
-     "Risk score":11,"Probability of urinary tract cancer":"0.04%","Lower limit":"0.02%","Upper limit":"0.05%"  },
+     "Risk score":11,"Probability of urinary tract cancer":"0.2%","Lower limit":"0.02%","Upper limit":"0.05%"  },
   {
-     "Risk score":12,"Probability of urinary tract cancer":"0.04%","Lower limit":"0.02%","Upper limit":"0.06%"  },
+     "Risk score":12,"Probability of urinary tract cancer":"0.0%","Lower limit":"0.02%","Upper limit":"0.06%"  },
   {
-     "Risk score":13,"Probability of urinary tract cancer":"0.05%","Lower limit":"0.03%","Upper limit":"0.06%"  },
+     "Risk score":13,"Probability of urinary tract cancer":"0.2%","Lower limit":"0.03%","Upper limit":"0.06%"  },
   {
-     "Risk score":14,"Probability of urinary tract cancer":"0.05%","Lower limit":"0.03%","Upper limit":"0.07%"  },
+     "Risk score":14,"Probability of urinary tract cancer":"0.2%","Lower limit":"0.03%","Upper limit":"0.07%"  },
   {
-     "Risk score":15,"Probability of urinary tract cancer":"0.06%","Lower limit":"0.03%","Upper limit":"0.08%"  },
+     "Risk score":15,"Probability of urinary tract cancer":"0.2%","Lower limit":"0.03%","Upper limit":"0.08%"  },
   {
-     "Risk score":16,"Probability of urinary tract cancer":"0.06%","Lower limit":"0.04%","Upper limit":"0.08%"  },
+     "Risk score":16,"Probability of urinary tract cancer":"0.3%","Lower limit":"0.04%","Upper limit":"0.08%"  },
   {
-     "Risk score":17,"Probability of urinary tract cancer":"0.07%","Lower limit":"0.04%","Upper limit":"0.09%"  },
+     "Risk score":17,"Probability of urinary tract cancer":"0.3%","Lower limit":"0.04%","Upper limit":"0.09%"  },
   {
-     "Risk score":18,"Probability of urinary tract cancer":"0.07%","Lower limit":"0.05%","Upper limit":"0.10%"  },
+     "Risk score":18,"Probability of urinary tract cancer":"0.3%","Lower limit":"0.05%","Upper limit":"0.10%"  },
   {
-     "Risk score":19,"Probability of urinary tract cancer":"0.08%","Lower limit":"0.05%","Upper limit":"0.11%"  },
+     "Risk score":19,"Probability of urinary tract cancer":"0.3%","Lower limit":"0.05%","Upper limit":"0.11%"  },
   {
-     "Risk score":20,"Probability of urinary tract cancer":"0.09%","Lower limit":"0.06%","Upper limit":"0.12%"  },
+     "Risk score":20,"Probability of urinary tract cancer":"0.4%","Lower limit":"0.06%","Upper limit":"0.12%"  },
   {
-     "Risk score":21,"Probability of urinary tract cancer":"0.10%","Lower limit":"0.06%","Upper limit":"0.14%"  },
+     "Risk score":21,"Probability of urinary tract cancer":"0.4%","Lower limit":"0.06%","Upper limit":"0.14%"  },
   {
-     "Risk score":22,"Probability of urinary tract cancer":"0.11%","Lower limit":"0.07%","Upper limit":"0.15%"  },
+     "Risk score":22,"Probability of urinary tract cancer":"0.5%","Lower limit":"0.07%","Upper limit":"0.15%"  },
   {
-     "Risk score":23,"Probability of urinary tract cancer":"0.12%","Lower limit":"0.08%","Upper limit":"0.17%"  },
+     "Risk score":23,"Probability of urinary tract cancer":"0.5%","Lower limit":"0.08%","Upper limit":"0.17%"  },
   {
-     "Risk score":24,"Probability of urinary tract cancer":"0.14%","Lower limit":"0.09%","Upper limit":"0.18%"  },
+     "Risk score":24,"Probability of urinary tract cancer":"0.6%","Lower limit":"0.09%","Upper limit":"0.18%"  },
   {
-     "Risk score":25,"Probability of urinary tract cancer":"0.15%","Lower limit":"0.10%","Upper limit":"0.20%"  },
+     "Risk score":25,"Probability of urinary tract cancer":"0.6%","Lower limit":"0.10%","Upper limit":"0.20%"  },
   {
-     "Risk score":26,"Probability of urinary tract cancer":"0.17%","Lower limit":"0.11%","Upper limit":"0.22%"  },
+     "Risk score":26,"Probability of urinary tract cancer":"0.7%","Lower limit":"0.11%","Upper limit":"0.22%"  },
   {
-     "Risk score":27,"Probability of urinary tract cancer":"0.18%","Lower limit":"0.12%","Upper limit":"0.24%"  },
+     "Risk score":27,"Probability of urinary tract cancer":"0.8%","Lower limit":"0.12%","Upper limit":"0.24%"  },
   {
-     "Risk score":28,"Probability of urinary tract cancer":"0.20%","Lower limit":"0.14%","Upper limit":"0.27%"  },
+     "Risk score":28,"Probability of urinary tract cancer":"0.9%","Lower limit":"0.14%","Upper limit":"0.27%"  },
   {
-     "Risk score":29,"Probability of urinary tract cancer":"0.22%","Lower limit":"0.15%","Upper limit":"0.29%"  },
+     "Risk score":29,"Probability of urinary tract cancer":"1.0%","Lower limit":"0.15%","Upper limit":"0.29%"  },
   {
-     "Risk score":30,"Probability of urinary tract cancer":"0.25%","Lower limit":"0.17%","Upper limit":"0.32%"  },
+     "Risk score":30,"Probability of urinary tract cancer":"1.1%","Lower limit":"0.17%","Upper limit":"0.32%"  },
   {
-     "Risk score":31,"Probability of urinary tract cancer":"0.27%","Lower limit":"0.19%","Upper limit":"0.35%"  },
+     "Risk score":31,"Probability of urinary tract cancer":"1.2%","Lower limit":"0.19%","Upper limit":"0.35%"  },
   {
-     "Risk score":32,"Probability of urinary tract cancer":"0.30%","Lower limit":"0.21%","Upper limit":"0.39%"  },
+     "Risk score":32,"Probability of urinary tract cancer":"1.3%","Lower limit":"0.21%","Upper limit":"0.39%"  },
   {
-     "Risk score":33,"Probability of urinary tract cancer":"0.33%","Lower limit":"0.24%","Upper limit":"0.43%"  },
+     "Risk score":33,"Probability of urinary tract cancer":"1.5%","Lower limit":"0.24%","Upper limit":"0.43%"  },
   {
-     "Risk score":34,"Probability of urinary tract cancer":"0.37%","Lower limit":"0.26%","Upper limit":"0.47%"  },
+     "Risk score":34,"Probability of urinary tract cancer":"1.6%","Lower limit":"0.26%","Upper limit":"0.47%"  },
   {
-     "Risk score":35,"Probability of urinary tract cancer":"0.41%","Lower limit":"0.30%","Upper limit":"0.52%"  },
+     "Risk score":35,"Probability of urinary tract cancer":"1.8%","Lower limit":"0.30%","Upper limit":"0.52%"  },
   {
-     "Risk score":36,"Probability of urinary tract cancer":"0.45%","Lower limit":"0.33%","Upper limit":"0.57%"  },
+     "Risk score":36,"Probability of urinary tract cancer":"2.0%","Lower limit":"0.33%","Upper limit":"0.57%"  },
   {
-     "Risk score":37,"Probability of urinary tract cancer":"0.50%","Lower limit":"0.37%","Upper limit":"0.63%"  },
+     "Risk score":37,"Probability of urinary tract cancer":"2.2%","Lower limit":"0.37%","Upper limit":"0.63%"  },
   {
-     "Risk score":38,"Probability of urinary tract cancer":"0.55%","Lower limit":"0.41%","Upper limit":"0.69%"  },
+     "Risk score":38,"Probability of urinary tract cancer":"2.4%","Lower limit":"0.41%","Upper limit":"0.69%"  },
   {
-     "Risk score":39,"Probability of urinary tract cancer":"0.61%","Lower limit":"0.45%","Upper limit":"0.76%"  },
+     "Risk score":39,"Probability of urinary tract cancer":"2.7%","Lower limit":"0.45%","Upper limit":"0.76%"  },
   {
-     "Risk score":40,"Probability of urinary tract cancer":"0.67%","Lower limit":"0.51%","Upper limit":"0.83%"  },
+     "Risk score":40,"Probability of urinary tract cancer":"3.0%","Lower limit":"0.51%","Upper limit":"0.83%"  },
   {
-     "Risk score":41,"Probability of urinary tract cancer":"0.74%","Lower limit":"0.56%","Upper limit":"0.92%"  },
+     "Risk score":41,"Probability of urinary tract cancer":"3.3%","Lower limit":"0.56%","Upper limit":"0.92%"  },
   {
-     "Risk score":42,"Probability of urinary tract cancer":"0.82%","Lower limit":"0.63%","Upper limit":"1.01%"  },
+     "Risk score":42,"Probability of urinary tract cancer":"3.7%","Lower limit":"0.63%","Upper limit":"1.01%"  },
   {
-     "Risk score":43,"Probability of urinary tract cancer":"0.90%","Lower limit":"0.70%","Upper limit":"1.11%"  },
+     "Risk score":43,"Probability of urinary tract cancer":"4.1%","Lower limit":"0.70%","Upper limit":"1.11%"  },
   {
-     "Risk score":44,"Probability of urinary tract cancer":"1.00%","Lower limit":"0.78%","Upper limit":"1.21%"  },
+     "Risk score":44,"Probability of urinary tract cancer":"4.5%","Lower limit":"0.78%","Upper limit":"1.21%"  },
   {
-     "Risk score":45,"Probability of urinary tract cancer":"1.10%","Lower limit":"0.86%","Upper limit":"1.33%"  },
+     "Risk score":45,"Probability of urinary tract cancer":"4.9%","Lower limit":"0.86%","Upper limit":"1.33%"  },
   {
-     "Risk score":46,"Probability of urinary tract cancer":"1.21%","Lower limit":"0.96%","Upper limit":"1.47%"  },
+     "Risk score":46,"Probability of urinary tract cancer":"5.5%","Lower limit":"0.96%","Upper limit":"1.47%"  },
   {
-     "Risk score":47,"Probability of urinary tract cancer":"1.34%","Lower limit":"1.07%","Upper limit":"1.61%"  },
+     "Risk score":47,"Probability of urinary tract cancer":"6.0%","Lower limit":"1.07%","Upper limit":"1.61%"  },
   {
-     "Risk score":48,"Probability of urinary tract cancer":"1.48%","Lower limit":"1.19%","Upper limit":"1.77%"  },
+     "Risk score":48,"Probability of urinary tract cancer":"6.6%","Lower limit":"1.19%","Upper limit":"1.77%"  },
   {
-     "Risk score":49,"Probability of urinary tract cancer":"1.63%","Lower limit":"1.32%","Upper limit":"1.94%"  },
+     "Risk score":49,"Probability of urinary tract cancer":"7.3%","Lower limit":"1.32%","Upper limit":"1.94%"  },
   {
-     "Risk score":50,"Probability of urinary tract cancer":"1.80%","Lower limit":"1.47%","Upper limit":"2.13%"  },
+     "Risk score":50,"Probability of urinary tract cancer":"8.1%","Lower limit":"1.47%","Upper limit":"2.13%"  },
   {
-     "Risk score":51,"Probability of urinary tract cancer":"1.98%","Lower limit":"1.63%","Upper limit":"2.34%"  },
+     "Risk score":51,"Probability of urinary tract cancer":"8.9%","Lower limit":"1.63%","Upper limit":"2.34%"  },
   {
-     "Risk score":52,"Probability of urinary tract cancer":"2.19%","Lower limit":"1.81%","Upper limit":"2.56%"  },
+     "Risk score":52,"Probability of urinary tract cancer":"9.7%","Lower limit":"1.81%","Upper limit":"2.56%"  },
   {
-     "Risk score":53,"Probability of urinary tract cancer":"2.41%","Lower limit":"2.01%","Upper limit":"2.81%"  },
+     "Risk score":53,"Probability of urinary tract cancer":"10.7%","Lower limit":"2.01%","Upper limit":"2.81%"  },
   {
-     "Risk score":54,"Probability of urinary tract cancer":"2.66%","Lower limit":"2.23%","Upper limit":"3.09%"  },
+     "Risk score":54,"Probability of urinary tract cancer":"11.7%","Lower limit":"2.23%","Upper limit":"3.09%"  },
   {
-     "Risk score":55,"Probability of urinary tract cancer":"2.93%","Lower limit":"2.48%","Upper limit":"3.38%"  },
+     "Risk score":55,"Probability of urinary tract cancer":"12.9%","Lower limit":"2.48%","Upper limit":"3.38%"  },
   {
-     "Risk score":56,"Probability of urinary tract cancer":"3.23%","Lower limit":"2.75%","Upper limit":"3.71%"  },
+     "Risk score":56,"Probability of urinary tract cancer":"14.1%","Lower limit":"2.75%","Upper limit":"3.71%"  },
   {
-     "Risk score":57,"Probability of urinary tract cancer":"3.56%","Lower limit":"3.05%","Upper limit":"4.06%"  },
+     "Risk score":57,"Probability of urinary tract cancer":"15.4%","Lower limit":"3.05%","Upper limit":"4.06%"  },
   {
-     "Risk score":58,"Probability of urinary tract cancer":"3.92%","Lower limit":"3.38%","Upper limit":"4.45%"  },
+     "Risk score":58,"Probability of urinary tract cancer":"16.8%","Lower limit":"3.38%","Upper limit":"4.45%"  },
   {
-     "Risk score":59,"Probability of urinary tract cancer":"4.31%","Lower limit":"3.75%","Upper limit":"4.87%"  },
+     "Risk score":59,"Probability of urinary tract cancer":"18.3%","Lower limit":"3.75%","Upper limit":"4.87%"  },
   {
-     "Risk score":60,"Probability of urinary tract cancer":"4.74%","Lower limit":"4.15%","Upper limit":"5.33%"  },
+     "Risk score":60,"Probability of urinary tract cancer":"19.9%","Lower limit":"4.15%","Upper limit":"5.33%"  },
   {
-     "Risk score":61,"Probability of urinary tract cancer":"5.22%","Lower limit":"4.60%","Upper limit":"5.83%"  },
+     "Risk score":61,"Probability of urinary tract cancer":"21.6%","Lower limit":"4.60%","Upper limit":"5.83%"  },
   {
-     "Risk score":62,"Probability of urinary tract cancer":"5.73%","Lower limit":"5.08%","Upper limit":"6.38%"  },
+     "Risk score":62,"Probability of urinary tract cancer":"23.4%","Lower limit":"5.08%","Upper limit":"6.38%"  },
   {
-     "Risk score":63,"Probability of urinary tract cancer":"6.30%","Lower limit":"5.62%","Upper limit":"6.97%"  },
+     "Risk score":63,"Probability of urinary tract cancer":"25.3%","Lower limit":"5.62%","Upper limit":"6.97%"  },
   {
-     "Risk score":64,"Probability of urinary tract cancer":"6.91%","Lower limit":"6.21%","Upper limit":"7.62%"  },
+     "Risk score":64,"Probability of urinary tract cancer":"27.4%","Lower limit":"6.21%","Upper limit":"7.62%"  },
   {
-     "Risk score":65,"Probability of urinary tract cancer":"7.59%","Lower limit":"6.86%","Upper limit":"8.32%"  },
+     "Risk score":65,"Probability of urinary tract cancer":"29.5%","Lower limit":"6.86%","Upper limit":"8.32%"  },
   {
-     "Risk score":66,"Probability of urinary tract cancer":"8.32%","Lower limit":"7.56%","Upper limit":"9.07%"  },
+     "Risk score":66,"Probability of urinary tract cancer":"31.7%","Lower limit":"7.56%","Upper limit":"9.07%"  },
   {
-     "Risk score":67,"Probability of urinary tract cancer":"9.11%","Lower limit":"8.33%","Upper limit":"9.89%"  },
+     "Risk score":67,"Probability of urinary tract cancer":"34.0%","Lower limit":"8.33%","Upper limit":"9.89%"  },
   {
-     "Risk score":68,"Probability of urinary tract cancer":"9.98%","Lower limit":"9.17%","Upper limit":"10.78%"  },
+     "Risk score":68,"Probability of urinary tract cancer":"36.4%","Lower limit":"9.17%","Upper limit":"10.78%"  },
   {
-     "Risk score":69,"Probability of urinary tract cancer":"10.91%","Lower limit":"10.09%","Upper limit":"11.73%"  },
+     "Risk score":69,"Probability of urinary tract cancer":"38.8%","Lower limit":"10.09%","Upper limit":"11.73%"  },
   {
-     "Risk score":70,"Probability of urinary tract cancer":"11.92%","Lower limit":"11.08%","Upper limit":"12.76%"  },
+     "Risk score":70,"Probability of urinary tract cancer":"41.3%","Lower limit":"11.08%","Upper limit":"12.76%"  },
   {
-     "Risk score":71,"Probability of urinary tract cancer":"13.01%","Lower limit":"12.15%","Upper limit":"13.87%"  },
+     "Risk score":71,"Probability of urinary tract cancer":"43.9%","Lower limit":"12.15%","Upper limit":"13.87%"  },
   {
-     "Risk score":72,"Probability of urinary tract cancer":"14.19%","Lower limit":"13.30%","Upper limit":"15.07%"  },
+     "Risk score":72,"Probability of urinary tract cancer":"46.5%","Lower limit":"13.30%","Upper limit":"15.07%"  },
   {
-     "Risk score":73,"Probability of urinary tract cancer":"15.45%","Lower limit":"14.55%","Upper limit":"16.34%"  },
+     "Risk score":73,"Probability of urinary tract cancer":"49.1%","Lower limit":"14.55%","Upper limit":"16.34%"  },
   {
-     "Risk score":74,"Probability of urinary tract cancer":"16.80%","Lower limit":"15.88%","Upper limit":"17.71%"  },
+     "Risk score":74,"Probability of urinary tract cancer":"51.7%","Lower limit":"15.88%","Upper limit":"17.71%"  },
   {
-     "Risk score":75,"Probability of urinary tract cancer":"18.24%","Lower limit":"17.31%","Upper limit":"19.18%"  },
+     "Risk score":75,"Probability of urinary tract cancer":"54.3%","Lower limit":"17.31%","Upper limit":"19.18%"  },
   {
-     "Risk score":76,"Probability of urinary tract cancer":"19.78%","Lower limit":"18.82%","Upper limit":"20.74%"  },
+     "Risk score":76,"Probability of urinary tract cancer":"56.8%","Lower limit":"18.82%","Upper limit":"20.74%"  },
   {
-     "Risk score":77,"Probability of urinary tract cancer":"21.42%","Lower limit":"20.43%","Upper limit":"22.41%"  },
+     "Risk score":77,"Probability of urinary tract cancer":"59.4%","Lower limit":"20.43%","Upper limit":"22.41%"  },
   {
-     "Risk score":78,"Probability of urinary tract cancer":"23.15%","Lower limit":"22.12%","Upper limit":"24.17%"  },
+     "Risk score":78,"Probability of urinary tract cancer":"61.9%","Lower limit":"22.12%","Upper limit":"24.17%"  },
   {
-     "Risk score":79,"Probability of urinary tract cancer":"24.97%","Lower limit":"23.90%","Upper limit":"26.04%"  },
+     "Risk score":79,"Probability of urinary tract cancer":"64.3%","Lower limit":"23.90%","Upper limit":"26.04%"  },
   {
-     "Risk score":80,"Probability of urinary tract cancer":"26.89%","Lower limit":"25.77%","Upper limit":"28.02%"  },
+     "Risk score":80,"Probability of urinary tract cancer":"66.6%","Lower limit":"25.77%","Upper limit":"28.02%"  },
   {
-     "Risk score":81,"Probability of urinary tract cancer":"28.91%","Lower limit":"27.71%","Upper limit":"30.10%"  },
+     "Risk score":81,"Probability of urinary tract cancer":"68.9%","Lower limit":"27.71%","Upper limit":"30.10%"  },
   {
-     "Risk score":82,"Probability of urinary tract cancer":"31.00%","Lower limit":"29.73%","Upper limit":"32.27%"  },
+     "Risk score":82,"Probability of urinary tract cancer":"71.1%","Lower limit":"29.73%","Upper limit":"32.27%"  },
   {
-     "Risk score":83,"Probability of urinary tract cancer":"33.18%","Lower limit":"31.82%","Upper limit":"34.54%"  },
+     "Risk score":83,"Probability of urinary tract cancer":"73.2%","Lower limit":"31.82%","Upper limit":"34.54%"  },
   {
-     "Risk score":84,"Probability of urinary tract cancer":"35.43%","Lower limit":"33.97%","Upper limit":"36.90%"  },
+     "Risk score":84,"Probability of urinary tract cancer":"75.2%","Lower limit":"33.97%","Upper limit":"36.90%"  },
   {
-     "Risk score":85,"Probability of urinary tract cancer":"37.75%","Lower limit":"36.18%","Upper limit":"39.33%"  },
+     "Risk score":85,"Probability of urinary tract cancer":"77.1%","Lower limit":"36.18%","Upper limit":"39.33%"  },
   {
-     "Risk score":86,"Probability of urinary tract cancer":"40.13%","Lower limit":"38.44%","Upper limit":"41.82%"  },
+     "Risk score":86,"Probability of urinary tract cancer":"78.9%","Lower limit":"38.44%","Upper limit":"41.82%"  },
   {
-     "Risk score":87,"Probability of urinary tract cancer":"42.56%","Lower limit":"40.75%","Upper limit":"44.36%"  },
+     "Risk score":87,"Probability of urinary tract cancer":"80.6%","Lower limit":"40.75%","Upper limit":"44.36%"  },
   {
-     "Risk score":88,"Probability of urinary tract cancer":"45.02%","Lower limit":"43.09%","Upper limit":"46.95%"  },
+     "Risk score":88,"Probability of urinary tract cancer":"82.1%","Lower limit":"43.09%","Upper limit":"46.95%"  },
   {
-     "Risk score":89,"Probability of urinary tract cancer":"47.50%","Lower limit":"45.45%","Upper limit":"49.55%"  },
+     "Risk score":89,"Probability of urinary tract cancer":"83.6%","Lower limit":"45.45%","Upper limit":"49.55%"  },
   {
-     "Risk score":90,"Probability of urinary tract cancer":"50.00%","Lower limit":"47.83%","Upper limit":"52.17%"  },
+     "Risk score":90,"Probability of urinary tract cancer":"85.0%","Lower limit":"47.83%","Upper limit":"52.17%"  },
   {
-     "Risk score":91,"Probability of urinary tract cancer":"52.50%","Lower limit":"50.22%","Upper limit":"54.78%"  },
+     "Risk score":91,"Probability of urinary tract cancer":"86.3%","Lower limit":"50.22%","Upper limit":"54.78%"  },
   {
-     "Risk score":92,"Probability of urinary tract cancer":"54.98%","Lower limit":"52.60%","Upper limit":"57.37%"  },
+     "Risk score":92,"Probability of urinary tract cancer":"87.5%","Lower limit":"52.60%","Upper limit":"57.37%"  },
   {
-     "Risk score":93,"Probability of urinary tract cancer":"57.44%","Lower limit":"54.97%","Upper limit":"59.92%"  },
+     "Risk score":93,"Probability of urinary tract cancer":"88.6%","Lower limit":"54.97%","Upper limit":"59.92%"  },
   {
-     "Risk score":94,"Probability of urinary tract cancer":"59.87%","Lower limit":"57.31%","Upper limit":"62.42%"  },
+     "Risk score":94,"Probability of urinary tract cancer":"89.6%","Lower limit":"57.31%","Upper limit":"62.42%"  },
   {
-     "Risk score":95,"Probability of urinary tract cancer":"62.25%","Lower limit":"59.62%","Upper limit":"64.87%"  },
+     "Risk score":95,"Probability of urinary tract cancer":"90.5%","Lower limit":"59.62%","Upper limit":"64.87%"  },
   {
-     "Risk score":96,"Probability of urinary tract cancer":"64.57%","Lower limit":"61.89%","Upper limit":"67.24%"  },
+     "Risk score":96,"Probability of urinary tract cancer":"91.4%","Lower limit":"61.89%","Upper limit":"67.24%"  },
   {
-     "Risk score":97,"Probability of urinary tract cancer":"66.82%","Lower limit":"64.11%","Upper limit":"69.53%"  },
+     "Risk score":97,"Probability of urinary tract cancer":"92.2%","Lower limit":"64.11%","Upper limit":"69.53%"  },
   {
-     "Risk score":98,"Probability of urinary tract cancer":"69.00%","Lower limit":"66.27%","Upper limit":"71.73%"  },
+     "Risk score":98,"Probability of urinary tract cancer":"92.9%","Lower limit":"66.27%","Upper limit":"71.73%"  },
   {
-     "Risk score":99,"Probability of urinary tract cancer":"71.09%","Lower limit":"68.36%","Upper limit":"73.83%"  },
+     "Risk score":99,"Probability of urinary tract cancer":"93.5%","Lower limit":"68.36%","Upper limit":"73.83%"  },
   {
-     "Risk score":100,"Probability of urinary tract cancer":"73.11%","Lower limit":"70.38%","Upper limit":"75.83%"  }
+     "Risk score":100,"Probability of urinary tract cancer":"94.1%","Lower limit":"70.38%","Upper limit":"75.83%"  }
 ]
