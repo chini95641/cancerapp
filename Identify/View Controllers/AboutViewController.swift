@@ -58,7 +58,7 @@ class AboutViewController: UIViewController {
         
         
         att.append(NSAttributedString.init(string: "How do I know this calculator is accurate? \n\n",attributes: boldAtt))
-        att.append(NSAttributedString.init(string: "No predictive model in medicine is perfect. Model performance is assessed in many ways, but commonly the area under the receiver operating characterisatic curve is used (AUC). The AUC of this model in the IDENTIFY Cohort was 0.79 which is good. The model has been internally validated using bootstrapping.\n\n\n",attributes: ansAtt))
+        att.append(NSAttributedString.init(string: "No predictive model in medicine is perfect. Model performance is assessed in many ways, but commonly the area under the receiver operating characterisatic curve is used (AUC). The AUC of this model in the IDENTIFY Cohort was 0.86 which is good. The model has been internally validated using bootstrapping.\n\n\n",attributes: ansAtt))
         
         
         
