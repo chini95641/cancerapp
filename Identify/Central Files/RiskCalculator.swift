@@ -475,7 +475,7 @@ class RiskCalculator {
         self.score = 0.0
         self.resultString = ""
         self.riskScore = nil
-        self.visibleHaematuria = .none
+        self.visibleHaematuria = .nonVisible
         self.gender = .female
         self.smoking = .no
         self.familyHistory = .no
