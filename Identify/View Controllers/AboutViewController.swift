@@ -47,7 +47,7 @@ class AboutViewController: UIViewController {
 
         att.append(NSAttributedString.init(string: "What is the output of the calculator?\n\n",attributes: boldAtt))
 
-        att.append(NSAttributedString.init(string: "The calculator will give you the patient’s predicted risk of urinary tract cancer, as well as their risk category. The low risk category has been set at less than 3% predicted risk of cancer. The other risk categories have been set according to the distribution of cancer in the original IDENTIFY cohort.\n\n\n",attributes: ansAtt))
+        att.append(NSAttributedString.init(string: "The calculator will give you the patient’s predicted risk of urinary tract cancer, as well as their risk category. A threshold of less than 1% predicted risk was selected for the very low group. We used 5% and 20% predicted risk as cut-offs to create low, intermediate, and high-risk groups.\n\n\n",attributes: ansAtt))
 
         
         

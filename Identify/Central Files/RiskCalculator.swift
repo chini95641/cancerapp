@@ -166,7 +166,7 @@ enum SmokingState:Double {
     
 }
 
-enum sa:Double {
+enum Haematuria:Double {
     
     
     case none = -1.0
@@ -224,7 +224,7 @@ class RiskCalculator {
     var resultString = ""
     var riskScore:RiskScore? = nil
     
-    var visibleHaematuria:BooleanState = .none
+    var visibleHaematuria:Haematuria = .none
     var gender:GenderState = .none
     var smoking:SmokingState = .none
     var familyHistory:BooleanState = .none
@@ -475,7 +475,7 @@ class RiskCalculator {
         self.score = 0.0
         self.resultString = ""
         self.riskScore = nil
-        self.visibleHaematuria = .no
+        self.visibleHaematuria = .none
         self.gender = .female
         self.smoking = .no
         self.familyHistory = .no

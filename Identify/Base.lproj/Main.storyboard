@@ -45,7 +45,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screenLogo" translatesAutoresizingMaskIntoConstraints="NO" id="tGQ-oU-rWm">
-                                <rect key="frame" x="81" y="68" width="228" height="50"/>
+                                <rect key="frame" x="81" y="88" width="228" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="gUN-Qg-CPR"/>
                                     <constraint firstAttribute="width" secondItem="tGQ-oU-rWm" secondAttribute="height" multiplier="105:23" id="srW-0J-RDp"/>
@@ -58,7 +58,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A multicentre observational study of patients referred to secondary care with haematuria" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bh2-Gr-J7O">
-                                <rect key="frame" x="20" y="130" width="350" height="36"/>
+                                <rect key="frame" x="20" y="150" width="350" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -94,7 +94,7 @@
                             <constraint firstItem="52B-61-H8F" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="REc-u5-hJn"/>
                             <constraint firstItem="FA4-Jr-LaL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="VUZ-5w-15Z"/>
                             <constraint firstItem="Tow-SO-CNS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c9I-Eo-7TM"/>
-                            <constraint firstItem="tGQ-oU-rWm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="cWp-Hs-MxN"/>
+                            <constraint firstItem="tGQ-oU-rWm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cWp-Hs-MxN"/>
                             <constraint firstItem="phD-Hf-nrT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="foE-tn-ej1"/>
                             <constraint firstItem="Bh2-Gr-J7O" firstAttribute="top" secondItem="tGQ-oU-rWm" secondAttribute="bottom" constant="12" id="frk-Zm-DYh"/>
                             <constraint firstItem="Tow-SO-CNS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hfv-Yy-AtM"/>
@@ -132,6 +132,7 @@
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" link="YES"/>
                                 </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
                                 <connections>
@@ -346,6 +347,14 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iJT-P6-duo">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="barTintColor" systemColor="systemBackgroundColor"/>
+                        <navigationBarAppearance key="standardAppearance">
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </navigationBarAppearance>
+                        <navigationBarAppearance key="scrollEdgeAppearance">
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        </navigationBarAppearance>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -366,7 +375,7 @@
         <image name="bladderCancer" width="283.5" height="159.5"/>
         <image name="screenLogo" width="212.5" height="46"/>
         <namedColor name="AccentColor">
-            <color red="0.34451997280000002" green="0.050320573149999999" blue="0.8941752315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.3449999988079071" green="0.05000000074505806" blue="0.89399999380111694" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

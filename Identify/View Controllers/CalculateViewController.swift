@@ -134,7 +134,7 @@ extension CalculateViewController:UITableViewDataSource, UITableViewDelegate {
         switch selection.tag {
             
         case 0:
-            RiskCalculator.shared.visibleHaematuria = BooleanState.init(rawValue: Double(selection.selectedSegmentIndex)) ?? .none
+            RiskCalculator.shared.visibleHaematuria = Haematuria.init(rawValue: Double(selection.selectedSegmentIndex)) ?? .none
         case 1:
             RiskCalculator.shared.gender = GenderState.init(rawValue: Double(selection.selectedSegmentIndex)) ?? .none
         case 2:
