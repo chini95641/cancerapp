@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O2a-c8-XEp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O2a-c8-XEp">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -184,7 +184,7 @@
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jlu-na-TVC">
-                                <rect key="frame" x="0.0" y="88" width="390" height="632"/>
+                                <rect key="frame" x="0.0" y="96" width="390" height="624"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="VE0-cj-cOT">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="58"/>
@@ -212,6 +212,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -226,7 +227,7 @@
                             <constraint firstItem="jlu-na-TVC" firstAttribute="trailing" secondItem="ixT-uY-DRX" secondAttribute="trailing" id="GLK-DL-fTa"/>
                             <constraint firstItem="gY8-tv-Ou5" firstAttribute="width" secondItem="rbS-S4-tyZ" secondAttribute="width" multiplier="0.6" id="GQY-GL-d3R"/>
                             <constraint firstItem="gY8-tv-Ou5" firstAttribute="top" secondItem="jlu-na-TVC" secondAttribute="bottom" constant="20" id="JJT-0C-5kH"/>
-                            <constraint firstItem="jlu-na-TVC" firstAttribute="top" secondItem="ixT-uY-DRX" secondAttribute="top" id="TcK-52-MiN"/>
+                            <constraint firstItem="jlu-na-TVC" firstAttribute="top" secondItem="ixT-uY-DRX" secondAttribute="top" constant="8" id="TcK-52-MiN"/>
                             <constraint firstItem="ixT-uY-DRX" firstAttribute="bottom" secondItem="gY8-tv-Ou5" secondAttribute="bottom" constant="20" id="cej-Vl-v4i"/>
                             <constraint firstItem="jlu-na-TVC" firstAttribute="leading" secondItem="ixT-uY-DRX" secondAttribute="leading" id="lEA-eH-GPB"/>
                             <constraint firstItem="gY8-tv-Ou5" firstAttribute="centerX" secondItem="rbS-S4-tyZ" secondAttribute="centerX" id="mlI-Zq-SJK"/>

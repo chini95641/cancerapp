@@ -12,7 +12,7 @@ import UIKit
 extension UIColor {
     
     
-    static let appColor = UIColor.init(named: "AccentColor")!
+    static var appColor = UIColor.init(named: "AccentColor")!
     
     
     static let lowRisk = UIColor.init(named: "riskLow")!
@@ -29,7 +29,7 @@ extension UIColor {
     }
     static var appLink:UIColor {
         if #available(iOS 13.0, *) {
-            return UIColor.link
+            return UIColor.appColor
         } else {
             // Fallback on earlier versions
             return UIColor.blue

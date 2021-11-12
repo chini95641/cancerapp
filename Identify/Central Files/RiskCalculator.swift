@@ -239,6 +239,8 @@ class RiskCalculator {
     var previousPelvicRadiotherapy:BooleanState = .none
     var anticoagulation:BooleanState = .none
 
+    var dysuria:BooleanState = .none
+
     var riskColor:UIColor = UIColor.black
     
     
@@ -310,11 +312,15 @@ class RiskCalculator {
             
             completionHandler("Please select previous pelvic radiotherapy to calculate risk")
 
-        } else if self.anticoagulation == .none {
+        } else if self.dysuria == .none {
+            
+            completionHandler("Please select suprapubic pain or dysuria to calculate risk")
+
+        }  else if self.anticoagulation == .none {
             
             completionHandler("Please select anticoagulation to calculate risk")
 
-        } else {
+        }else {
             
             self.score += 1.91 * self.visibleHaematuria.rawValue
 
@@ -334,7 +340,9 @@ class RiskCalculator {
 
             self.score -=   0.60 * self.previousPelvicRadiotherapy.rawValue
 
-            self.score -=  0.33 * self.anticoagulation.rawValue
+            self.score -=  0.33 * self.dysuria.rawValue
+            
+            self.score -=  0.32 * self.anticoagulation.rawValue
 
             self.score -=   0.84 * self.visibleHaematuria.rawValue * self.gender.rawValue
 
@@ -442,9 +450,9 @@ class RiskCalculator {
 
         self.risks[7].selectedString = self.previousPelvicRadiotherapy.displayName
         
-        self.risks[8].selectedString = self.anticoagulation.displayName
-        
-        
+        self.risks[8].selectedString = self.dysuria.displayName
+        self.risks[9].selectedString = self.anticoagulation.displayName
+
         
 
         
@@ -484,6 +492,7 @@ class RiskCalculator {
         self.utiState = .no
         self.catheterUse = .no
         self.previousPelvicRadiotherapy = .no
+        self.dysuria = .no
         self.anticoagulation = .no
         self.updateValues()
     }

@@ -52,6 +52,7 @@ class Risk {
         
         list.append(Risk.init(with: "Catheter use",with: ["NO","YES"]))
         list.append(Risk.init(with: "Previous pelvic radiotherapy",with: ["NO","YES"]))
+        list.append(Risk.init(with: "Suprapubic pain or dysuria",with: ["NO","YES"]))
         list.append(Risk.init(with: "Anticoagulation",with: ["NO","YES"]))
 
         return list

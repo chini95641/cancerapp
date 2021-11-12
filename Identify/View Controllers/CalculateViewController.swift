@@ -154,6 +154,9 @@ extension CalculateViewController:UITableViewDataSource, UITableViewDelegate {
         case 7:
             RiskCalculator.shared.previousPelvicRadiotherapy = BooleanState.init(rawValue: Double(selection.selectedSegmentIndex)) ?? .none
         case 8:
+            RiskCalculator.shared.dysuria = BooleanState.init(rawValue: Double(selection.selectedSegmentIndex)) ?? .none
+
+        case 9:
             RiskCalculator.shared.anticoagulation = BooleanState.init(rawValue: Double(selection.selectedSegmentIndex)) ?? .none
 
         default:
@@ -166,7 +169,7 @@ extension CalculateViewController:UITableViewDataSource, UITableViewDelegate {
         
         self.tableView.reloadData()
     }
-    
+
     
     
 }

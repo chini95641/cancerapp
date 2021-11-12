@@ -19,7 +19,7 @@ class HomeNavigationController: UINavigationController {
         self.navigationBar.shadowImage = UIImage()
         let attributes = [NSAttributedString.Key.foregroundColor:UIColor.appColor,NSAttributedString.Key.font:UIFont.navigationTitle]
         self.navigationBar.titleTextAttributes = attributes
-        
+        self.navigationBar.tintColor = UIColor.appColor
         if #available(iOS 13.0, *) {
             self.navigationBar.standardAppearance.titleTextAttributes = attributes
             self.navigationBar.scrollEdgeAppearance?.titleTextAttributes = attributes
